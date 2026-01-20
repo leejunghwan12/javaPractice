@@ -1,0 +1,20 @@
+# 빌드 결과물
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Eclipse 설정 폴더
+.settings/
+.idea/
+*.iml
+
+# 빌드/배포 폴더
+bin/
+target/
+build/
+tmp/
+
+# macOS 시스템 파일
+.DS_Store
