@@ -19,5 +19,6 @@ class Array{
 		System.out.println("amount" + amount );
 		System.out.println("test");
 		System.out.println("test");
+		System.out.println("test");
 	}
 }
