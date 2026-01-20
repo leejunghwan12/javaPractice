@@ -17,6 +17,6 @@ class Array{
 		amount = (int)((price - discount) * (1+ rate ));
 		System.out.println("discount" + discount );
 		System.out.println("amount" + amount );
-		
+		System.out.println("test");
 	}
 }
