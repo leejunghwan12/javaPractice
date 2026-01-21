@@ -1,24 +1,20 @@
 package test;
 
+import java.util.Iterator;
+
 class Array{
 	public static void main(String[] args){
-		int price = Integer.parseInt(args[0]);
-		double rate = 0.10;
-		int discount, amount;
+
+		int height = Integer.parseInt(args[0]);
+		int width = Integer.parseInt(args[1]);
+		int area;
 		
-		if( price >= 5000 ) {
-			discount = 500;
-		} else if ( price >= 3000 ) {
-			discount = 300;
-		} else {
-			discount = 0;
-		}
+		area = height * width / 2;
 		
-		amount = (int)((price - discount) * (1+ rate ));
-		System.out.println("discount" + discount );
-		System.out.println("test");
-		System.out.println("amount" + amount );
-		System.out.println("test");
-		System.out.println("test");
+		System.out.println("HEIGHT= " + height);
+		System.out.println("width= " + width);
+		
+		System.out.println("menseki " + area);
+		
 	}
 }
